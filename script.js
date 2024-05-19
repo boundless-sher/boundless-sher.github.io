@@ -1,4 +1,4 @@
-const apiUrl = "https://murphy-quotes-0c76523e6ac1.herokuapp.com/api/quotes/";
+const apiUrl = "https://murphy-quotes-0c76523e6ac1.herokuapp.com/api/quotes";
 
 async function handleClick() {
     const response = await fetch(apiUrl);
