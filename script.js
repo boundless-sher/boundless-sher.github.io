@@ -12,7 +12,6 @@ const getRandomQuote = () => {
         .then((response) => response.json())
         .then((data) => {
             const { quote, author } = pickRandom(data);
-            console.log(quote, author);
             document.getElementById("quote-content").innerText = quote;
             document.getElementById("quote-content").innerText += `\n${author}`;
         });
